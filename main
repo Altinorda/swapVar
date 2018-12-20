@@ -1,0 +1,16 @@
+#include "pch.h"
+#include <iostream>
+
+int main()
+{
+	int a = 1, b = 2;
+	std::cout << "Before swap:\n";
+	printf("a= %d\n", a);
+	printf("b= %d\n", b);
+	a = a + b;
+	b = a - b;
+	a = a - b;
+	std::cout << "After swap:\n";
+	printf("a= %d\n", a);
+	printf("b= %d", b);
+}
